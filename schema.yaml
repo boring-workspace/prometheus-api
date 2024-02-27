@@ -3,16 +3,6 @@ info:
   title: Prometheus API
   version: 1.0.0
 paths:
-  /stock/:
-    get:
-      operationId: stock_retrieve
-      tags:
-      - stock
-      security:
-      - cookieAuth: []
-      - basicAuth: []
-      - {}
-      responses: {}
   /stock/ohlc:
     get:
       operationId: stock_ohlc_retrieve
